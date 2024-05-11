@@ -1,2 +1,2 @@
 # ConanCloset
-Conan Closet is a website for all Detective Conan enthesitis, a place where you can purchase figures, cosplays and much more!  
+Are you a Detective Conan fan? Look no further than Conan Closet, your ultimate destination for all things Detective Conan! We offer a wide selection of figures, cosplays, and much more
