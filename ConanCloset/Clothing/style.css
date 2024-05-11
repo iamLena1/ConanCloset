@@ -1,0 +1,432 @@
+.clotheing-andcosplay,
+.clotheing-andcosplay * {
+  box-sizing: border-box;
+}
+
+
+
+.clotheing-andcosplay {
+  background: #ececec;
+  height: 1840px;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: 50px; /* Adjust the spacing as needed */
+  
+}
+
+
+.clothing-products {
+  width: 1440px;
+  height: 1219px;
+  position: absolute;
+  left: 0px;
+  top: 159px;
+}
+
+.clotheing-cosplay {
+  background: linear-gradient(
+    180deg,
+    rgba(111, 111, 111, 1) 0%,
+    rgba(251, 251, 251, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 64px;
+  font-weight: 400;
+  display: flex;
+  position: absolute;
+  left: 20px;
+  top: 47px;
+}
+.products-container {
+  position: absolute;
+  left: 10px;
+  top: 200px;
+}
+
+.products-row {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.product-template {
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 318.9px;
+  height: 467px;
+  position: relative;
+  margin-bottom: 20px; 
+}
+.product-template button {
+  background-color: rgb(4, 32, 80); /* Dark blue background */
+  color: #ffffff;  /* Changed text color to white for better contrast */
+  font-size: 12px;
+  width:270px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration:none; 
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 4px;
+  position: absolute;
+  left: 27px;
+  top: 395px;
+  z-index: 1;
+}
+
+.product-template button:hover {
+  background-color: #920000; /* Darker green on hover */
+}
+
+
+
+.product-pic {
+  border-radius: 20px;
+  width: 319px;
+  height: 390px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  object-fit: fill;
+}
+.product-name {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 19, 47, 1) 0%,
+    rgba(11, 61, 160, 1) 72.50000238418579%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 27px;
+  top: 433px;
+  width: 169px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.price {
+  background: linear-gradient(
+    180deg,
+    rgba(3, 19, 47, 1) 0%,
+    rgba(11, 61, 160, 1) 72.50000238418579%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: absolute;
+  left: 237px;
+  top: 433px;
+  width: 70px;
+  height: 28px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.header {
+  width: 1208px;
+  height: 96px;
+  position: absolute;
+  left: 112px;
+  top: 40px;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  height: auto;
+  position: absolute;
+  left: 1070px;
+  top: 34px;
+  overflow: visible;
+}
+.footer {
+  width: 1440px;
+  height: 423px;
+  position: absolute;
+  left: 0px;
+  top: 1417px;
+  overflow: hidden;
+}
+.identification {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 345px;
+  height: 234px;
+  position: absolute;
+  left: 83px;
+  top: 49px;
+}
+.conancloset {
+  text-align: left;
+  position: relative;
+  -webkit-text-stroke: 0.25px #ffc107;
+}
+.conancloset-span {
+  color: #920000;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.conancloset-span2 {
+  color: #920000;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.conancloset-span3 {
+  color: #000000;
+  font-family: "Griffy-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.there-is-only-one-truth {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 189px;
+}
+.social-media {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 127px;
+  height: 55px;
+  position: absolute;
+  left: 93px;
+  top: 265px;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 51.38px;
+  height: 54px;
+  position: static;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 51.38px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0.5px;
+}
+.ri-instagram-fill {
+  width: 21.41px;
+  height: 22.5px;
+  position: absolute;
+  left: 14.98px;
+  top: 16.25px;
+  overflow: visible;
+}
+.group-13 {
+  flex-shrink: 0;
+  width: 51.38px;
+  height: 54px;
+  position: relative;
+  overflow: visible;
+}
+.information {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 145px;
+  height: 194px;
+  position: absolute;
+  left: 853px;
+  top: 141px;
+}
+.information2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.about {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.product2 {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.blog {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.company {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 140px;
+  height: 194px;
+  position: absolute;
+  left: 1046px;
+  top: 141px;
+}
+.company2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.community {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.career {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.our-story {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.contact {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 145px;
+  height: 194px;
+  position: absolute;
+  left: 1213px;
+  top: 141px;
+}
+.contact2 {
+  color: var(--color-1, #051f4f);
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.getting-started {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.pricing {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.resources {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+._2024-all-right-reserved-term-of-use-conan-closet {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 42px;
+  top: 386px;
+}

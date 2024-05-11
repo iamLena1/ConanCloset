@@ -1,0 +1,469 @@
+.sign-up,
+.sign-up * {
+  box-sizing: border-box;
+}
+.sign-up {
+  background: linear-gradient(
+    180deg,
+    rgba(5, 30, 78, 1) 0%,
+    rgba(0, 10, 29, 1) 100%
+  );
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.sign-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: -61px;
+  top: 158px;
+}
+.image-7 {
+  flex-shrink: 0;
+  width: 704px;
+  height: 620px;
+  position: relative;
+  object-fit: cover;
+  transition: transform 2s ease; /* Smooth transition for size change */
+}
+.sign-up-main {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 40px;
+  border-image: linear-gradient(
+    135.59deg,
+    rgba(88, 130, 193, 0.49) 0%,
+    rgba(88, 130, 193, 0.11) 100%
+  );
+  padding: 54px 53px 54px 53px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(12.5px);
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  gap: 27px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 640px;
+  position: relative;
+}
+.part-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.sign-up2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: relative;
+}
+.let-s-get-you-all-st-up-so-you-can-access-your-personal-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.75;
+  position: relative;
+}
+
+.credential {
+  flex-shrink: 0;
+  width: 642px;
+  height: 363.32px;
+  position: static;
+}
+
+
+/*---confirm pasword---*/
+.confirm-password {
+  width: 641px;
+  height: 85.32px;
+  position: static;
+}
+
+.confirm-password input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 640px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - 319px);
+  top: calc(50% - -120.66px);
+}
+
+/*--text--*/
+.con-password {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 317px);
+  top: calc(50% - -90px);
+  width: 168px;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+/*---pasword---*/
+.password {
+  width: 641px;
+  height: 85.32px;
+  position: static;
+}
+
+.password input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 640px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - 319px);
+  top: calc(50% - -28.66px);
+}
+
+/*--text--*/
+.password2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 317px);
+  top: calc(50% - 0.60px);
+  width: 146.56px;
+  height: 39.14px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+/*---last name---*/
+.last-name {
+  width: 309px;
+  height: 85.32px;
+  position: static;
+}
+
+.last-name input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 308px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - -14px);
+  top: calc(50% - 156.66px);
+}
+
+/*--text--*/
+.last-name2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -15px);
+  top: calc(50% - 186.66px);
+  width: 146.08px;
+  height: 40.05px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+/*---first name---*/
+.first-name {
+  width: 309px;
+  height: 85.32px;
+  position: static;
+}
+
+.first-name input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 308px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - 318px);
+  top: calc(50% - 156.66px);
+}
+
+/*--text--*/
+.first-name2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 317px);
+  top: calc(50% - 186.66px);
+  width: 146.08px;
+  height: 40.05px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+
+
+
+/*---Email---*/
+.email {
+  width: 309px;
+  height: 85.32px;
+  position: static;
+}
+
+.email input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 308px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - 318px);
+  top: calc(50% - 63.66px);
+}
+
+
+/*---text---*/
+.email2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 317px);
+  top: calc(50% - 93.66px);
+  width: 146.56px;
+  height: 40.05px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+/*---phone Number---*/
+.phone-number {
+  width: 309px;
+  height: 85.32px;
+  position: static;
+}
+
+.phone-number input {
+  background: #ffffff;
+  border-radius: 8px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 308px;
+  height: 56px;
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute;
+  left: calc(50% - -14px);
+  top: calc(50% - 63.66px);
+}
+
+/*---text---*/
+.phone-number2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alice-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - -15px);
+  top: calc(50% - 93.66px);
+  width: 146.56px;
+  height: 40.05px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+.create-account-botton {
+  flex-shrink: 0;
+  width: 641px;
+  height: 85.32px;
+  position: static;
+
+}
+
+.create-account-botton1 {
+  background: #051f4f; 
+  border-radius: 10px;
+  width: 641px;
+  height: 56px;
+  color: #ffffff; 
+  text-align: center; 
+  font-family: "Alike-Regular", sans-serif; 
+  font-size: 20px; 
+  font-weight: 400; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 2px solid #051f4f; 
+  transition: border-color 0.3s; 
+  position: absolute; 
+  left: calc(50% - 320px);
+  top: calc(50% - -203.66px);
+}
+
+.create-account-botton1:hover {
+  border-color: #ffffff; 
+}
+
+
+.create-account {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 84px);
+  top: calc(50% - -203.66px);
+  width: 640px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.already-have-an-account-login {
+  text-align: center;
+  font-family: "-", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  position: relative;
+  width: 640px;
+}
+.already-have-an-account-login-span {
+  color: #dcdada;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+}
+.already-have-an-account-login-span2 {
+  color: #ffffff;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.already-have-an-account-login-span2:hover {
+  font-size: 140%; /* Adjust the percentage to your desired size */
+}
+
+
+
+
+.header {
+  width: 1216px;
+  height: 96px;
+  position: absolute;
+  left: 112px;
+  top: 27px;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  width: 11%;
+  height: 42.71%;
+  position: absolute;
+  right: 0.35%;
+  left: 88.65%;
+  bottom: 19.79%;
+  top: 37.5%;
+  overflow: visible;
+}

@@ -1,0 +1,289 @@
+.check-out-page,
+.check-out-page * {
+  box-sizing: border-box;
+}
+.check-out-page {
+  background: linear-gradient(
+    180deg,
+    rgba(6, 22, 78, 1) 31.49999976158142%,
+    rgba(8, 36, 108, 1) 64.49999809265137%,
+    rgba(11, 61, 160, 1) 100%
+  );
+  height: 942px;
+  position: relative;
+  overflow: hidden;
+}
+.kaitou-kid-1 {
+  width: 784px;
+  height: 710px;
+  position: absolute;
+  left: 873px;
+  top: 180px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(-1, 1);
+  object-fit: cover;
+}
+.select-payment-method {
+  color: #c6bebe;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 52px;
+  font-weight: 400;
+  position: absolute;
+  left: 418px;
+  top: 216px;
+  width: 604px;
+  -webkit-text-stroke: 1px #000000;
+}
+.payment-methods {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  width: 567px;
+  position: absolute;
+  left: 437px;
+  top: 328px;
+}
+.credit-card {
+  background: var(--color-3, rgba(255, 255, 255, 0.62));
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 17px 164px 17px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 70px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 552px;
+  height: 103px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.credit-debit-cards {
+  color: #000000;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 1px transparent;
+}
+._5-1 {
+  flex-shrink: 0;
+  width: 63px;
+  height: 41px;
+  position: relative;
+  object-fit: cover;
+}
+.stc-pay {
+  background: var(--color-3, rgba(255, 255, 255, 0.62));
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 16px 307px 16px 40px;
+  display: flex;
+  flex-direction: row;
+  gap: 247px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 552px;
+  height: 103px;
+  position: relative;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.stc-pay2 {
+  color: #000000;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 1px transparent;
+}
+.stc-pay-1 {
+  flex-shrink: 0;
+  width: 72px;
+  height: 35px;
+  position: relative;
+  object-fit: cover;
+}
+.ner-banking {
+  background: var(--color-3, rgba(255, 255, 255, 0.62));
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 21px 269px 21px 38px;
+  display: flex;
+  flex-direction: row;
+  gap: 194px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 555px;
+  height: 103px;
+  position: relative;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.net-banking {
+  color: #000000;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 1px transparent;
+}
+.chunk-museum {
+  flex-shrink: 0;
+  width: 37px;
+  height: 41px;
+  position: relative;
+  overflow: visible;
+}
+.cash {
+  background: var(--color-3, rgba(255, 255, 255, 0.62));
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 2px;
+  padding: 26px 211px 26px 36px;
+  display: flex;
+  flex-direction: row;
+  gap: 114px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 552px;
+  height: 103px;
+  position: relative;
+  box-shadow: inset 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.cash-on-delivery {
+  color: #000000;
+  text-align: center;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: relative;
+  -webkit-text-stroke: 1px transparent;
+}
+.casw {
+  flex-shrink: 0;
+  width: 46px;
+  height: 36px;
+  position: relative;
+  overflow: visible;
+}
+.header {
+  width: 1216px;
+  height: 96px;
+  position: absolute;
+  left: 110px;
+  top: 52px;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan3 {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  width: 11%;
+  height: 42.71%;
+  position: absolute;
+  right: 0.35%;
+  left: 88.65%;
+  bottom: 19.79%;
+  top: 37.5%;
+  overflow: visible;
+}
+.image-3 {
+  border-style: solid;
+  border-color: transparent;
+  border-width: 1px;
+  width: 338px;
+  height: 427px;
+  position: absolute;
+  left: 1072px;
+  top: 404px;
+  object-fit: cover;
+}
+.continue-button {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 1062px;
+  top: 772px;}
+
+  .continue-button button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px; /* Adjust padding for desired size */
+    border-radius: 8px; /* Add rounded corners */
+    cursor: pointer; /* Make the button clickable */
+    width: 150px; /* Adjust width as needed */
+    height: 60px; /* Adjust height as needed */
+    /* New style for hover effect */
+    transition: box-shadow 0.3s ease-in-out; /* Add transition for smooth effect */
+  }
+  
+  .continue-button button:hover {
+    box-shadow: 0 0 5px white; /* Create white inset shadow on hover */
+  }
+  
+
+.rectangle-4 {
+  border-radius: 0px;
+  flex-shrink: 0;
+  width: 195px;
+  height: 88px;
+  position: relative;
+  overflow: visible;
+}
+.continue {
+  color: #ffffff;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 34px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 87.5px);
+  top: 20px;
+  width: 174px;
+  height: 47px;
+  -webkit-text-stroke: 1px #000000;
+}

@@ -1,0 +1,263 @@
+.login-page,
+.login-page * {
+  box-sizing: border-box;
+}
+.login-page {
+  background: linear-gradient(
+    0deg,
+    rgba(1, 11, 29, 1) 0%,
+    rgba(5, 31, 79, 1) 100%
+  );
+  height: 1180px;
+  position: relative;
+  overflow: hidden;
+}
+.login-frame {
+  width: 803px;
+  height: 736px;
+  position: absolute;
+  left: 319px;
+  top: 172px;
+}
+
+/* ---------this is the login rectangle that contain everything--------- */
+.rectangle-1379 {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 803px;
+  height: 736px;
+  position: absolute;
+  left: calc(50% - 401.5px);
+  top: calc(50% - 368px);
+  backdrop-filter: blur(12.5px);
+}
+
+/* ---------this is the login word at the begining--------- */
+.login {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 290.5px);
+  top: calc(50% - 274px);
+  width: 300.22px;
+  height: 51.86px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  -webkit-text-stroke: 1px #000000;
+}
+
+
+/* ---------this is for registration link--------- */
+.register-botton { 
+  width: 568.12px; 
+  height: 54.02px; 
+  color: #ffffff; 
+  text-align: center; 
+  font-family: "Alike-Regular", sans-serif; 
+  font-size: 20px; 
+  font-weight: 400; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  position: absolute; 
+  left: calc(50% - 290.5px); 
+  top: 590px;
+  transition: font-size 0.5s;
+}
+
+.register-botton:hover {
+  font-size: 25px; 
+}
+
+
+/* ---------this is for login botton--------- */
+.sign-in-button {
+  background: #051f4f; 
+  border-radius: 10px;
+  width: 568.12px; 
+  height: 54.02px;
+  color: #ffffff; 
+  text-align: center; 
+  font-family: "Alike-Regular", sans-serif; 
+  font-size: 20px; 
+  font-weight: 400; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 2px solid #051f4f; 
+  transition: border-color 0.3s; 
+  position: absolute; 
+  left: calc(50% - 290.5px); 
+  top: calc(50% - -108px); 
+}
+
+/* Change border color on hover */
+.sign-in-button:hover {
+  border-color: #ffffff; 
+}
+
+
+.collect-credintials {
+  position: absolute;
+  inset: 0;
+}
+
+
+/*--------Email Text -------------*/
+.email2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 16 px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 284.5px);
+  top: calc(50% - 192px);
+  width: 53.4px;
+  height: 24.85px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+} 
+
+/*--------Email box -------------*/
+.email {
+  width: 568.12px;
+  height: 83.19px;
+  position: static;
+}
+.email input {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 568.12px; /* Same width as .email */
+  height: 54.02px; /* Same height as .email-text-box */
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute; /* Keep it absolutely positioned */
+  left: calc(50% - 290.5px); /* Positioning adjustments */
+  top: calc(50% - 167.04px); /* Positioning adjustments */
+}
+
+
+/*--------Password Text -------------*/
+.password2 {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 284.5px);
+  top: calc(50% - 81.68px);
+  width: 89.76px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+
+/*--------Password box -------------*/
+.password {
+  width: 568.12px;
+  height: 83.19px; 
+  position: static; 
+}
+
+.password input {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 568.12px;
+  height: 54.02px; 
+  padding: 10px; 
+  font-size: 16px; 
+  position: absolute; 
+  left: calc(50% - 290.5px); 
+  top: calc(50% - 52.51px); 
+}
+
+
+
+/*--------forgrt Password link-------------*/
+.forgot-password {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 284.5px);
+  top: calc(50% - -23px);
+  width: 145px;
+  height: 27px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+
+.image-1 {
+  width: 214px;
+  height: 495px;
+  position: absolute;
+  left: 1015px;
+  top: 436px;
+  object-fit: cover;
+}
+.header {
+  width: 1216px;
+  height: 96px;
+  position: absolute;
+  left: 112px;
+  top: 34px;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan3 {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  width: 11%;
+  height: 42.71%;
+  position: absolute;
+  right: 0.35%;
+  left: 88.65%;
+  bottom: 19.79%;
+  top: 37.5%;
+  overflow: visible;
+}

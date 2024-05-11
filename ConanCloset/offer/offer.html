@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Begin Your Journey in Cybersecurity</title>
+    <style>
+        body {
+            background-color: # błęd (light blue); /* Adjust hue for desired shade */
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        form {
+            width: 600px; /* Adjust width as needed */
+            margin: 50px auto; /* Center the form */
+            padding: 20px;
+            border: 1px solid #ccc; /* Add a subtle border */
+            border-radius: 5px; /* Rounded corners */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+            background-color: #fff; /* White background for the form */
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            margin-bottom: 20px;
+            color: #333; /* Darker text for better contrast */
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+            color: #333; /* Darker text for better contrast */
+        }
+
+        input[type="text"],
+        input[type="file"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            box-sizing: border-box; /* Include padding in width calculation */
+            margin-bottom: 15px;
+        }
+
+        .update-button,
+        .Backkk-button {
+            background-color: #4CAF50; /* Green button color */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px; /* Add space between buttons */
+        }
+
+        .Backkk-button {
+            background-color: #f44336; /* Red button color */
+        }
+
+        .update-button:hover,
+        .Backkk-button:hover {
+            opacity: 0.8; /* Slight opacity change on hover */
+        }
+
+        img {
+            display: block;
+            margin-bottom: 20px;
+            width: 600px; /* Adjust width as needed */
+            height: auto; /* Maintain aspect ratio */
+        }
+    </style>
+</head>
+<body>
+
+<form method="POST"
+      action="http://localhost/ConanCloset/ConanCloset/AdminPanel/editItemFun.php"
+      enctype="multipart/form-data">
+    <h1>Free Exam Vouchers</h1>
+
+    <input type="hidden" name="ID" value="3">
+    <input type="hidden" name="ProductName" value="Kaitou figure">
+    <input type="hidden" name="ProductDesc" value="Kaitou Kid">
+    <input type="hidden" name="ProductCategory" value="figures">
+    <input type="hidden" name="ProductQuantity" value="175">
+    <input type="hidden" name="ProductPrice" value="5">
+    <img src="scam.jpg_large" alt="Exam Voucher Placeholder">
+
+    <label for="productImage">Upload pic of Your previous exam voucher</label>
+    <input type="file" id="productImage" class="form-control" name="productImage">
+
+    <label>To claim a discount and a possible chance of winning a free exam voucher</label>
+
+    <button type="submit" class="update-button">Claim the Certificate</button>
+    <button class="Backkk-button">
+        <a href="AdminPanel.php" style="color: white;">Cancel</a>
+    </button>
+</form>
+
+</body>
+</html>

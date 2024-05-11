@@ -1,0 +1,1445 @@
+.main-page,
+.main-page * {
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: BungeeInline;
+  src:url(ConanCloset/BungeeInline-Regular.ttf) format("ttf");
+  font-weight: normal;
+  font-style: normal;
+  font-stretch: normal;
+}
+.main-page {
+  background: #ffffff;
+  height: 3873px;
+  position: relative;
+}
+.main-frame {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+}
+.part-1 {
+  background: #03132f;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 1280px;
+  position: relative;
+  overflow: hidden;
+}
+.character-title {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 86px;
+  top: 878px;
+}
+.main-detective-conan-characters {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+  width: 256px;
+}
+.don-t-get-discouraged-even-the-greatest-detectives-hit-dead-ends-sometimes {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  width: 256px;
+}
+.charecters-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1062px;
+  position: absolute;
+  left: 378px;
+  top: 805px;
+  overflow-x: auto;
+}
+.conan {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.conan-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.conan2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.ran {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.ran-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.ran2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.sinichi {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.sinichi-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.sinichi2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.kogoro {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.kogoro-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.kogoro2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.agasa {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.agasa-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.agasa2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.kaito {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.kaito-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.kaito-kid {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.little-detectives {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.little-d-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.little-detectives2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.black-organization {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.bo-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.black-organization2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.fbi {
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.fbi-pic {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 299.33px;
+  height: 363px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.fbi2 {
+  color: #5d9dda;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  position: relative;
+}
+.opening {
+  border-radius: 24px;
+  width: 1248px;
+  height: 512px;
+  position: absolute;
+  left: calc(50% - 624px);
+  top: 188px;
+  overflow: hidden;
+}
+.frame-1 {
+  background: rgba(255, 255, 255, 0.38);
+  border-radius: 20px;
+  padding: 0px 6px 0px 6px;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  align-items: flex-start;
+  justify-content: center;
+  height: 312px;
+  position: absolute;
+  left: 60px;
+  top: 100px;
+}
+.opening-phrase {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.unlock-the-mystery-of-your-inner-detective {
+  background: linear-gradient(
+    166.18deg,
+    rgba(3, 19, 47, 1) 0%,
+    rgba(10, 60, 149, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 56px;
+  line-height: 64px;
+  font-weight: 400;
+  position: relative;
+  width: 512px;
+}
+.searchbar {
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 8px;
+  display: flex;
+  flex-direction: row;
+  gap: 21px;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 502px;
+  height: 81px;
+  position: relative;
+  overflow: hidden;
+
+ 
+  
+  .search-input {
+    font-size: 16px; /* Adjust font size if required */
+    border: none; /* Remove default border from input */
+    /* Adjust padding-left to accommodate full text */
+    padding-left: none; /* Example padding adjustment */
+    user-select: none; /* Optional for preventing accidental text selection */
+    width: 400px; 
+    height: 80px;
+    
+  }
+
+
+  
+}
+
+.search-button {
+  background: var(--color-1, #051f4f); /* Adjust if needed */
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;  /* Add transitions */
+}
+
+.search-button:hover {
+  background-color: var(--color-highlight, #920000);  /* Change background on hover */
+  transform: scale(1.1);  /* Increase size on hover */
+  box-shadow: 0 0 5px rgba(255, 51, 0, 0.736);  /* Add subtle shadow on hover */
+}
+/* Remove the .vector class entirely */
+
+.search-icon {
+  /* Existing styles... */
+  /* No further centering styles needed */
+  width: auto; /* Allow image to adjust to content size */
+  height: auto; /* Allow image to adjust to content size */
+  position: absolute; /* Already set for absolute positioning */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center the image */
+  transform-origin: top left;
+  /* Optional: Remove debugging border if added earlier */
+}
+
+
+
+.part-2 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 461px;
+  position: relative;
+  overflow: hidden;
+}
+.services {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 96px;
+  top: 156px;
+}
+.s-1 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-1 {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  position: static;
+}
+.ellipse-1 {
+  background: var(--color-1, #051f4f);
+  border-radius: 50%;
+  width: 96px;
+  height: 96px;
+  position: absolute;
+  left: 152px;
+  top: 0px;
+}
+.group {
+  width: 15%;
+  height: 19.97%;
+  position: absolute;
+  right: 42.5%;
+  left: 42.5%;
+  bottom: 66.1%;
+  top: 13.93%;
+  overflow: visible;
+}
+.large-assortment {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.we-offer-many-different-types-of-products-with-fewer-variations-in-each-category {
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  width: 400px;
+}
+.s-2 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.group-12 {
+  flex-shrink: 0;
+  width: 96px;
+  height: 96px;
+  position: relative;
+  overflow: visible;
+}
+.fast-free-shipping {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+._4-day-or-less-delivery-time-free-shipping-and-an-expedited-delivery-option {
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  width: 400px;
+}
+.s-3 {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+.telephone-outbound {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 180px;
+  top: 28px;
+  overflow: visible;
+}
+._24-7-support {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.answers-to-any-business-related-inquiry-24-7-and-in-real-time {
+  color: rgba(30, 30, 30, 0.5);
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+  width: 400px;
+}
+.about-us {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 534px;
+  top: -1px;
+}
+.about-us2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  position: relative;
+}
+.we-are-here-to-satisfy-your-fans-instincts {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.part-3 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 1024px;
+  position: relative;
+  overflow: hidden;
+}
+.categories {
+  width: 1440px;
+  height: 841px;
+  position: absolute;
+  left: 0px;
+  top: 183px;
+}
+.accessories-button {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 305px;
+  height: 584px;
+  position: absolute;
+  left: 43px;
+  top: -38px;
+  overflow: hidden;
+}
+.frame-9 {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 405px;
+  height: 537px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.accessories {
+  color: #0539a3;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+}
+.clothing-button {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 304px;
+  height: 584px;
+  position: absolute;
+  left: 385px;
+  top: 109px;
+  overflow: hidden;
+}
+.clothing-cosplay {
+  color: #0539a3;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  position: relative;
+}
+.home-school-button {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 305px;
+  height: 584px;
+  position: absolute;
+  left: 730px;
+  top: -38px;
+  overflow: hidden;
+}
+.home-school2 {
+  color: #0539a3;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  position: relative;
+}
+.figures-button {
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  border-style: solid;
+  border-color: #a8d3f2;
+  border-width: 1px;
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 325px;
+  height: 584px;
+  position: absolute;
+  left: 1071px;
+  top: 109px;
+  overflow: hidden;
+}
+.frame-92 {
+  background: linear-gradient(to left, #d1eeff, #d1eeff);
+  border-radius: 20px;
+  flex-shrink: 0;
+  width: 380px;
+  height: 537px;
+  position: relative;
+  overflow: hidden;
+  object-fit: cover;
+}
+.figures2 {
+  color: #0539a3;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 38px;
+  font-weight: 400;
+  position: relative;
+}
+.accessories-button:hover,
+.clothing-button:hover,
+.home-school-button:hover,
+.figures-button:hover {
+  /* Hover styles for all buttons */
+  transform: translateY(-2px); /* Slight upward movement */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle box-shadow for depth */
+  cursor: pointer;
+} 
+.categories-title {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  left: 589px;
+  top: 0px;
+}
+.categories2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 56px;
+  font-weight: 400;
+  position: relative;
+}
+.find-what-you-are-looking-for {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: relative;
+}
+.part-4 {
+  background: #ffffff;
+  flex-shrink: 0;
+  width: 1440px;
+  height: 685px;
+  position: relative;
+  overflow: hidden;
+}
+.telling-you-our-favorite-qoutes {
+  color: #051f4f;
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+  position: absolute;
+  left: 43px;
+  top: 90px;
+  width: 744px;
+}
+.qouts-bar {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 1424px;
+  position: absolute;
+  left: 16px;
+  top: 233px;
+  overflow-x: auto;
+}
+.sinichi-qoute {
+  background: var(--color-1, #051f4f);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 624px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.even-if-i-am-a-holmes-it-wouldn-t-be-possible-for-me-to-solve-the-contents-of-a-woman-s-heart {
+  color: #ececec;
+  text-align: left;
+  font-family: "Pristina-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: 515px;
+  height: 101px;
+}
+.spic {
+  width: 24.52%;
+  height: 65.53%;
+  position: absolute;
+  right: 1.44%;
+  left: 74.04%;
+  bottom: -0.79%;
+  top: 35.26%;
+  overflow: visible;
+}
+.s-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 359px;
+  top: 299px;
+}
+.shinchi-kudo {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.the-high-school-detective {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  position: relative;
+}
+.conan-qoute {
+  background: var(--color-1, #051f4f);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 624px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.the-truth-is-like-a-spotlight-no-matter-how-much-smoke-and-mirrors-they-throw-around-it-it-will-always-shine-through-in-the-end {
+  color: #ececec;
+  text-align: left;
+  font-family: "Pristina-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: 515px;
+  height: 101px;
+}
+.c-pic {
+  width: 39.1%;
+  height: 93.16%;
+  position: absolute;
+  right: -4.17%;
+  left: 65.06%;
+  bottom: -12.89%;
+  top: 19.74%;
+  overflow: visible;
+}
+.c-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 359px;
+  top: 299px;
+}
+.conan-edogawa {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.the-silver-bullet {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+.ran-qoute {
+  background: var(--color-1, #051f4f);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 624px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.even-if-the-whole-world-doubts-you-i-ll-always-believe-in-you {
+  color: #ececec;
+  text-align: left;
+  font-family: "Pristina-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: 515px;
+  height: 101px;
+}
+.r-pic {
+  width: 28.85%;
+  height: 60.79%;
+  position: absolute;
+  right: 0%;
+  left: 71.15%;
+  bottom: 0%;
+  top: 39.21%;
+  overflow: visible;
+}
+.r-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 359px;
+  top: 299px;
+}
+.ran-mouri {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.the-angle {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+.kogoro-qoute {
+  background: var(--color-1, #051f4f);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 624px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.a-real-detective-protects-the-ones-they-care-about-no-matter-what {
+  color: #ececec;
+  text-align: left;
+  font-family: "Pristina-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: 515px;
+  height: 101px;
+}
+.k-pic {
+  width: 27.4%;
+  height: 72.89%;
+  position: absolute;
+  right: -4.01%;
+  left: 76.6%;
+  bottom: -1.05%;
+  top: 28.16%;
+  overflow: visible;
+}
+.k-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 359px;
+  top: 299px;
+}
+.kogoro-mouri {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.the-sleeping-detective {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+.eri-qoute {
+  background: var(--color-1, #051f4f);
+  border-radius: 12px;
+  flex-shrink: 0;
+  width: 624px;
+  height: 380px;
+  position: relative;
+  overflow: hidden;
+}
+.sometimes-the-hardest-truth-is-the-one-closest-to-you {
+  color: #ececec;
+  text-align: left;
+  font-family: "Pristina-Regular", sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  position: absolute;
+  left: 48px;
+  top: 48px;
+  width: 515px;
+  height: 101px;
+}
+.e-pic {
+  width: 27.4%;
+  height: 72.89%;
+  position: absolute;
+  right: -4.01%;
+  left: 76.6%;
+  bottom: -1.05%;
+  top: 28.16%;
+  overflow: visible;
+}
+.e-name {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: absolute;
+  left: 359px;
+  top: 299px;
+}
+.eri-kisaki {
+  color: var(--color-2, #1965be);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.the-veteran-lawyer {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  position: relative;
+}
+.footer {
+  flex-shrink: 0;
+  width: 1440px;
+  height: 423px;
+  position: relative;
+  overflow: hidden;
+}
+.identification {
+  padding: 0px 10px 0px 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: center;
+  width: 345px;
+  height: 234px;
+  position: absolute;
+  left: 83px;
+  top: 49px;
+}
+.conancloset {
+  text-align: left;
+  position: relative;
+  -webkit-text-stroke: 0.25px #ffc107;
+}
+.conancloset-span {
+  color: #920000;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 48px;
+  font-weight: 400;
+}
+.conancloset-span2 {
+  color: #920000;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+}
+.conancloset-span3 {
+  color: #000000;
+  font-family: "Griffy-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+.there-is-only-one-truth {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Alike-Regular", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  position: relative;
+  width: 189px;
+}
+.social-media {
+  background: #ffffff;
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  align-items: center;
+  justify-content: flex-start;
+  width: 127px;
+  height: 55px;
+  position: absolute;
+  left: 93px;
+  top: 265px;
+}
+.group-122 {
+  flex-shrink: 0;
+  width: 51.38px;
+  height: 54px;
+  position: static;
+}
+.ellipse-3 {
+  border-radius: 50%;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  width: 51.38px;
+  height: 54px;
+  position: absolute;
+  left: 0px;
+  top: 0.5px;
+}
+.ri-instagram-fill {
+  width: 21.41px;
+  height: 22.5px;
+  position: absolute;
+  left: 14.98px;
+  top: 16.25px;
+  overflow: visible;
+}
+.group-13 {
+  flex-shrink: 0;
+  width: 51.38px;
+  height: 54px;
+  position: relative;
+  overflow: visible;
+}
+.information {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 145px;
+  height: 194px;
+  position: absolute;
+  left: 853px;
+  top: 141px;
+}
+.information2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.about {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.product {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.blog {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.company {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 140px;
+  height: 194px;
+  position: absolute;
+  left: 1046px;
+  top: 141px;
+}
+.company2 {
+  color: var(--color-1, #051f4f);
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.community {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.career {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.our-story {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.contact {
+  background: rgba(255, 255, 255, 0.46);
+  border-radius: 20px;
+  padding: 0px 4px 0px 4px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 145px;
+  height: 194px;
+  position: absolute;
+  left: 1213px;
+  top: 141px;
+}
+.contact2 {
+  color: var(--color-1, #051f4f);
+  text-align: center;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  position: relative;
+}
+.getting-started {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.pricing {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+.resources {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+}
+._2024-all-right-reserved-term-of-use-conan-closet {
+  color: var(--color-4, #d1eeff);
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  position: absolute;
+  left: 42px;
+  top: 386px;
+}
+.header {
+  flex-shrink: 0;
+  width: 1216px;
+  height: 96px;
+  position: absolute;
+  left: 105px;
+  top: 53px;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan3 {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  width: 11%;
+  height: 42.71%;
+  position: absolute;
+  right: 0.35%;
+  left: 88.65%;
+  bottom: 19.79%;
+  top: 37.5%;
+  overflow: visible;
+}

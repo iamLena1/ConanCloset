@@ -1,0 +1,262 @@
+.forgot-password,
+.forgot-password * {
+  box-sizing: border-box;
+}
+.forgot-password {
+  background: linear-gradient(
+    180deg,
+    rgba(4, 29, 76, 1) 0%,
+    rgba(0, 10, 31, 1) 100%
+  );
+  height: 946px;
+  position: relative;
+  overflow: hidden;
+}
+.forget-pass-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 60px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 1242px;
+  position: absolute;
+  left: 86px;
+  top: 41px;
+}
+.header {
+  flex-shrink: 0;
+  width: 1216px;
+  height: 96px;
+  position: relative;
+}
+.website-name {
+  position: absolute;
+  inset: 0;
+}
+.closet {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  position: absolute;
+  left: 295px;
+  top: 19px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.conan3 {
+  color: #920000;
+  text-align: left;
+  font-family: "BungeeInline-Regular", sans-serif;
+  font-size: 80px;
+  font-weight: 400;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  -webkit-text-stroke: 1px #a27e00;
+}
+.cart-account {
+  width: 11%;
+  height: 42.71%;
+  position: absolute;
+  right: 0.35%;
+  left: 88.65%;
+  bottom: 19.79%;
+  top: 37.5%;
+  overflow: visible;
+}
+
+
+
+.full-frame {
+  display: flex;
+  flex-direction: row;
+  gap: 80px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+/*-------the frame of the info--------*/
+.forg-frame {
+  background: rgba(196, 196, 196, 0.35);
+  border-radius: 40px;
+  border-style: solid;
+  border-color: #000000;
+  border-width: 1px;
+  border-image-slice: 1;
+  padding: 103px 45px 103px 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+  backdrop-filter: blur(12.5px);
+}
+
+
+.main {
+  flex-shrink: 0;
+  width: 525px;
+  height: 441px;
+  position: static;
+}
+
+
+.submit-botton {
+  width: 512px;
+  height: 48px;
+  position: static;
+}
+.submit-botton2 {
+  background: #051f4f;
+  border-radius: 10px;
+  width: 513px; /* Same width as .email */
+  height: 56px;
+  color: #ffffff; 
+  text-align: center; 
+  font-family: "Alike-Regular", sans-serif; 
+  font-size: 20px; 
+  font-weight: 400; 
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: 2px solid #051f4f; 
+  transition: border-color 0.3s; 
+  position: absolute;
+  left: calc(50% - 262.5px);
+  top: calc(50% - -137.5px);
+}
+
+/* Change border color on hover */
+.submit-botton2:hover {
+  border-color: #ffffff; 
+}
+
+
+
+/*--------Email box -------------*/
+User
+.email {
+  width: 513px; /* Same width as the target element */
+  height: 86px; /* Same height as the target element */
+  position: static;
+}
+
+.email input {
+  background: #ffffff;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #bcbec0;
+  border-width: 1px;
+  width: 513px; /* Same width as .email */
+  height: 56px; /* Adjusted height based on target */
+  padding: 10px; /* Adjust padding as needed */
+  font-size: 16px; /* Adjust font size as needed */
+  position: absolute; /* Keep it absolutely positioned */
+  left: calc(50% - 256.5px); /* Adjusted positioning for new width */
+  top: calc(50% - -36.5px); /* Same top positioning as target */
+}
+
+
+
+
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 34px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 523px;
+  height: 441px;
+  position: absolute;
+  left: 47px;
+  top: 103px;
+}
+.back-text {
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+}
+
+.back {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  align-items: center;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  position: relative;
+  text-decoration: none; /* Remove default underline for anchor */
+}
+
+.back:hover {
+  transform: scale(1.2); /* Scale up on hover */
+}
+
+.chevron-back {
+  flex-shrink: 0;
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: visible;
+}
+
+.back-to-login {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  position: relative;
+}
+
+
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-shrink: 0;
+  width: 512px;
+  position: relative;
+}
+.forgot-your-password {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-SemiBold", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  position: relative;
+  align-self: stretch;
+}
+.don-t-worry-happens-to-all-of-us-enter-your-email-below-to-recover-your-password {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  opacity: 0.75;
+  position: relative;
+  align-self: stretch;
+}
+
+.image-5 {
+  flex-shrink: 0;
+  width: 540px; /* Adjust width as needed */
+  height: 650px; /* Adjust height as needed */
+  border-radius: 40px;
+}
+
